@@ -1,0 +1,520 @@
+/* navbar section */
+#navbar-section {
+  font-family: "Ubuntu";
+  font-size: 1rem;
+}
+
+nav.navbar {
+  background: #000;
+  opacity: 0.8;
+}
+
+.logo-top {
+  width: 6%;
+  height: 6%;
+  border-radius: 50%;
+}
+
+.mall-name {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.shop {
+  margin-left: 30px;
+  margin-right: 10px;
+}
+
+/* contact section */
+#contact-section {
+  opacity: 0.9;
+  background-color: #000;
+  margin-bottom: 0;
+  padding: 45px 40px 1px;
+}
+
+h4 {
+  color: #fff;
+  margin-bottom: 25px;
+  font-family: "Ubuntu";
+  font-weight: normal;
+}
+
+p {
+  color: #fff;
+  font-family: "Ubuntu";
+  font-weight: lighter;
+}
+
+.footer-link {
+  text-decoration: none;
+  font-family: "Ubuntu";
+  color: #fff;
+  font-weight: lighter;
+}
+
+.logo {
+  width: 38%;
+  height: 28%;
+  border-radius: 50%;
+  margin-left: 5px;
+}
+
+.contact {
+  margin: 20px auto;
+}
+
+.social-media {
+  color: white;
+  margin: auto 8px;
+}
+
+.Copyright {
+  margin-top: 7px;
+}
+
+/* shop page*/
+.top-heading {
+  color: #000;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+  text-align: center;
+  margin: 65px auto 40px;
+  font-size: 60px;
+}
+
+#shop-section {
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+.row {
+  margin-bottom: 40px;
+}
+
+.top-img {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  object-position: top;
+}
+
+.shopping-division {
+  width: 100%;
+  height: 270px;
+  object-fit: cover;
+}
+
+.rows {
+  margin-right: 0;
+}
+
+.rows .types {
+  padding: 2%;
+}
+
+.card {
+  padding-right: 0;
+}
+
+.types {
+  text-align: center;
+}
+
+/* about page */
+.about-p {
+  color: #000;
+  margin: auto 10%;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+.about {
+  font-family: "Ubuntu";
+}
+
+.row-about {
+  margin-top: 4%;
+}
+
+.about-heading {
+  margin-left: 5%;
+  margin-top: 20px;
+  font-weight: 500;
+}
+
+.about-img {
+  border-radius: 5%;
+}
+
+@media (max-width: 900px) {
+  .about-img {
+    margin: 10% 10% 2% 10%;
+  }
+
+  .about-heading {
+    text-align: center;
+  }
+}
+
+/* whatsnew page */
+.mall-img {
+  width: 100%;
+  height: 550px;
+  object-fit: cover;
+  margin-bottom: 50px;
+  object-position: top;
+}
+
+.whatsnew {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+.whatsnew-img {
+  margin-top: 4%;
+  width: 60%;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 3%;
+}
+
+.animate__animated {
+  font-family: 'Dancing Script';
+  font-weight: bolder;
+  font-size: 4rem;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  color: maroon;
+}
+
+.c-img {
+  width: 500px;
+  height: 300px;
+  border-radius: 3%;
+}
+
+.whatsnew-h1 {
+  color: maroon;
+}
+
+.c-heading {
+  font-family: 'Ubuntu';
+  padding: 10%;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  color: maroon;
+}
+
+.christmas {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.c-col {
+  text-align: center;
+}
+
+/* dine page */
+.dine-col {
+  text-align: center;
+}
+
+.dine-img {
+  width: 100%;
+  height: 300px;
+  padding: auto 80px;
+  object-fit: cover;
+  margin: 40px auto 40px;
+  border-radius: 3%;
+}
+
+.container {
+  position: relative;
+  text-align: center;
+  color: #000;
+  margin: auto;
+  width: 70%;
+  transition: 2s;
+  padding: 0;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -250%);
+  width: 110%;
+  background-color: #fff;
+  opacity: 0.5;
+  font-family: 'Dancing Script';
+  font-weight: bolder;
+  margin: auto;
+  color: #000;
+  font-size: 2rem;
+}
+
+.discover {
+  background-color: #F2F2F2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 200%);
+  opacity: 0.7;
+  display: none;
+}
+
+.container:hover .discover {
+  display: block;
+}
+
+/* restaurant page  */
+.restaurant-img {
+  object-position: right;
+}
+
+.curry-img {
+  object-fit: contain;
+}
+
+/* foodcourt page */
+.foodcourt {
+  object-position: right;
+}
+
+/* brand pages */
+.brands {
+  position: relative;
+  width: 80%;
+  border: ridge;
+  border-color: grey;
+  height: 200px;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: .3s ease;
+}
+
+.brands:hover .overlay {
+  transform: scale(1);
+}
+
+/* events page */
+body {
+  margin: 0;
+  padding: 10px 0 0;
+  font-family: sans-serif;
+}
+
+.event-h1 {
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 40px;
+  color: maroon;
+}
+
+.box {
+  margin: 3% 6% 8% 10%;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px 10px #888888;
+}
+
+.box h1 {
+  margin: 0;
+  padding-left: 0;
+  color: #ff005c;
+  font-size: 40px;
+}
+
+.box .com:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+
+.box .com {
+  top: 10%;
+  display: flex;
+}
+
+.box .com .imgbx {
+  width: 500px;
+  flex: 0 0 500px;
+}
+
+.box .imgbx img {
+  max-width: 100%;
+}
+
+.box .com .content {
+  padding-left: 20px;
+  color: #000;
+}
+
+.box .com .content h2 {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #ff005c;
+  font-size: 30px;
+}
+
+.box .com .content p {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
+  color: #000;
+}
+
+.box .com .content button {
+  width: 38%;
+  height: 40px;
+  font-size: 30px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 6px 10px 1px;
+  float: right;
+  margin-top: 20px;
+  padding-bottom: 49px;
+  padding-top: 0;
+}
+
+.box .music:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+
+.box .music {
+  top: 10%;
+  display: flex;
+}
+
+.box .music .imgbx {
+  width: 500px;
+  flex: 0 0 500px;
+}
+
+.box .music .imgbx img {
+  max-width: 100%;
+}
+
+.box .music .content {
+  padding-left: 20px;
+}
+
+.box .music .content h2 {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #ff005c;
+  font-size: 30px;
+}
+
+.box .music .content p {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
+  color: #000;
+}
+
+.box .music .content button {
+  width: 38%;
+  height: 40px;
+  font-size: 30px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 10px 2px;
+  float: right;
+  margin-right: 17px;
+  padding-bottom: 49px;
+  padding-top: 0;
+}
+
+.box .movie:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+
+.box .movie {
+  display: flex;
+}
+
+.box .movie .imgbx {
+  width: 500px;
+  flex: 0 0 500px;
+}
+
+.box .movie .imgbx img {
+  max-width: 100%;
+}
+
+.box .movie .content {
+  padding-left: 20px;
+}
+
+.box .movie .content h2 {
+  margin: 0;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: #ff005c;
+  font-size: 30px;
+}
+
+.box .movie .content p {
+  margin: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: justify;
+  font-size: 20px;
+  color: #000;
+}
+
+.box .movie .content button {
+  width: 35%;
+  height: 40px;
+  font-size: 30px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 12px;
+  margin: 4px 2px;
+  float: right;
+  margin-right: 88px;
+  padding-bottom: 49px;
+  padding-top: 0;
+  margin-top: 30px;
+}
+
+.box .com .content button:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+
+.box .music .content button:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
+
+.box .movie .content button:hover {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, .5);
+}
