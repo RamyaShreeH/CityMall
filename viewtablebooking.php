@@ -20,8 +20,7 @@
             $fullname = $_GET['fn'];
             $phoneNo = $_GET['ph'];
             $noOfTables = $_GET['t'];
-            $emailId = $_GET['em'];
-              
+            $emailId = $_GET['em']; 
             echo "<h1 align = 'center'>Details</h1>";
             echo "</br>";
             echo "<h1>Name: {$fullname}</h1>";

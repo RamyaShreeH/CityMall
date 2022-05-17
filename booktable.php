@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookingStatus</title>
     <script src="https://kit.fontawesome.com/16048488ea.js" crossorigin="anonymous"></script>
-
     <style>
         body{
             background-color : white;
@@ -45,7 +44,7 @@
 
     $a=mysqli_query($con,$sql);
     if(!$a){
-        echo "Data not added";
+        echo "<h1 align = 'center'>Oops! Something went wrong, try again.";
     }
     else {
         echo "<i class = 'icon fa-solid fa-circle-check fa-4x'></i>";
