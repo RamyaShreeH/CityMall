@@ -5,6 +5,10 @@
             ViewBooking
         </title>
         <style>
+             body{
+                background-image:url(images/tablebookingbackground.jpg);
+                background-size:1700px
+            }
             .box{
                 border: 3px solid;
                 padding: 10px;
@@ -12,6 +16,7 @@
                 margin: 10% auto 10% auto;
                 width: 30%;
                 height:500px;
+                background:white;
             }
         </style>
     </head>
